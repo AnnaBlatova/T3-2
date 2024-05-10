@@ -15,4 +15,4 @@ jobs:
         with:
           java-version: 1.11
       - name: Maven Package
-        run: mvn test -Dtest=MethodsTest
+        run: mvn -B clean test
